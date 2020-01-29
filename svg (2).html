@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Box model</title>
+  <link rel="stylesheet" href="svg.css">
+</head>
+
+<body>
+<h1 id="title">SVG Pictures </h1>
+<div id="dividedbox">
+  <div class="quarter" id="NW">
+    <h2>Traffic light</h2>
+    <svg width="140px" height="320px">  1
+      <rect x="20" y="20" width="100" height="280" class="rec-teal"/>
+      <circle cx="70" cy="80" r="30" class="cir-red"/>
+      <circle cx="70" cy="160" r="30" class="cir-yellow"/>
+      <circle cx="70" cy="240" r="30" class="cir-green"/>
+  </div>
+  <div class="quarter" id="NE">
+    <h2>Star</h2>
+      <svg height="210" width="500">
+        <polygon points="100,10 40,198 190,78 10,78 160,198"/>
+      </svg>
+
+  </div>
+  <div class="quarter" id="SE">
+    <h2>Text inside a rectangle</h2>
+    <svg xmlns="http://www.w3.org/2000/svg">
+      <g>
+        <rect x="0" y="0" width="400" height="600" ></rect>
+        <text x="0" y="50" >I Love SVG</text>
+      </g>
+    </svg>
+  </div>​
+  <div class="quarter" id="SW">
+    <h2>Polygon</h2>
+    <svg width="300px" height="200px">
+
+      <polygon points="10 10, 50 50, 75 175, 175 150, 175 50, 225 75, 225 150, 300 150" />
+    </svg>
+  </div>
+</div>
+</body>
+
+</html>

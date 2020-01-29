@@ -1,0 +1,20 @@
+
+html, body { height:95%;} /* Important to make sure your divs have room to grow in the document */
+#title { background: lightgreen}
+#dividedbox { position: relative; width:100%; height:95%}   /* for div growth */
+.quarter {position: absolute; width:50%; height:50%;  /* gives quarters their size */
+  display: flex; justify-content: center; align-items: center;} /* centers text */
+#NW { top:0;    left:0;     background:orange;     }
+#NE { top:0;    left:50%;   background:lightblue;  }
+#SW { top:50%;  left:0;     background:green;      }
+#SE { top:50%;  left:50%;   background:red;        }
+
+.rec-teal{fill:teal; stroke:black; stroke-width:3}
+.cir-red{fill:red; stroke:black; stroke-width:2}
+.cir-yellow{fill:yellow; stroke:black; stroke-width:2}
+.cir-green{fill:#40CC40 ;stroke:black ;stroke-width:2}
+
+#NE polygon{fill:yellow;stroke:deeppink;stroke-width:5;fill-rule:evenodd;}
+#SE rect{fill:yellow}
+#SE text{font-family:Verdana ;font-size:35;fill:blue}
+#SW polygon{fill:red ;stroke:#000}
